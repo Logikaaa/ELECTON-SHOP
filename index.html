@@ -17,7 +17,6 @@
     <nav class="navbar">
         <div class="logo">
             <img src="/img/logo.png" alt="Electon">
-            <span>Electon</span>
         </div>
         <ul class="menu">
             <li><a href="#">HOME ⌄</a></li>
@@ -38,8 +37,8 @@
     </nav>
     <div class="banner">
         <div class="slider">
-            <div class="slide">
-                <img src="/img/home8-slider1.jpg" alt="Electon Banner 1">
+            <div class="slide active">
+                <img src="/img/home8-slider1.jpg">
                 <div class="banner-content">
                     <p>* Starting price <em>$120.00</em></p>
                     <h1>PORTABLE<br>WIRELESS</h1>
@@ -47,17 +46,286 @@
                 </div>
             </div>
             <div class="slide">
-                <img src="/img/home8-slider2.jpg" alt="Electon Banner 2">
+                <img src="/img/home8-slider2.jpg">
                 <div class="banner-content">
                     <p>* Exclusive Deal <em>$99.00</em></p>
-                    <h1>SMART IN<br>4K DESK</h1>
+                    <h1>PREMIUM<br>HEADPHONES</h1>
                     <a href="#" class="shop-button">SHOP NOW</a>
                 </div>
             </div>
+        </div>
+        <div class="slider-controls">
+            <button onclick="moveSlide(-1)">&#10094;</button>
+            <button onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </div>
 <main>
+    <h2>TOP CATEGORIES</h2>
+    <div class="category-slider">
+        <button class="category-prev">&#10094;</button>
+        <div class="category-container">
+            <div class="category-track">
+                <div class="category-item">
+                    <a href="">
+                    <img src="/img/home8-cat2.jpg" alt="Camera">
+                    <div class="category-text_">PROJECTOR</div>
+                </a>
+                </div>
+                <div class="category-item">
+                    <a href="">
+                    <img src="/img/home8-cat4.jpg" alt="Bluetooth Speaker">
+                    <div class="category-text">BLUETOOTH SPEAKERS</div>
+                </a>
+                </div>
+                <div class="category-item">
+                    <a href="">
+                    <img src="/img/home8-cat5.jpg" alt="Smart TV">
+                    <div class="category-text_">SMART TV</div>
+                </a>
+                </div>
+                <div class="category-item">
+                    <a href="">
+                    <img src="/img/home8-cat6.jpg" alt="Games">
+                    <div class="category-text_">GAMES</div>
+                </a>
+                </div>
+                <div class="category-item">
+                    <a href="">
+                    <img src="/img/home8-cat3.jpg" alt="Games">
+                    <div class="category-text_">DRONES</div>
+                </a>
+                </div>
+                <div class="category-item">
+                    <a href="">
+                    <img src="/img/home8-cat1.jpg" alt="Games">
+                    <div class="category-text_">EARPHONES</div>
+                </a>
+                </div>
+            </div>
+        </div>
+        <button class="category-next">&#10095;</button>
+    </div>    
+    </div>
+    <div class="prop">
+        <div class="prop-item">
+            <img src="/img/home8-banner1.jpg">
+            <div class="prop-text1">
+                <p>Music N7</p>
+            </div>
+            <div class="prop-text2">
+                <p>handsfree</p>
+            </div>
+            <div class="prop-a">
+            <a href="">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="prop-item">
+            <img src="/img/home8-banner2.jpg">
+            <div class="prop-text11">
+                <p>Slim tablet</p>
+            </div>
+            <div class="prop-text22">
+                <p>collection</p>
+            </div>
+            <a href="">SHOP NOW</a>
+        </div>
+        <div class="prop-item">
+            <img src="/img/home8-banner3.jpg">
+            <div class="prop-text11">
+                <p>Mini solo</p>
+            </div>
+            <div class="prop-text22">
+                <p>camera</p>
+            </div>
+            <a href="">SHOP NOW</a>
+        </div>
+    </div>      
+    <h2>TRENDING ITEMS</h2>
+    <div class="trend-container">
+        <div class="trend trend-active" data-trend="drones">DRONES</div>
+        <div class="trend" data-trend="projector">PROJECTOR</div>
+        <div class="trend" data-trend="smartphone">SMARTPHONE</div>
+    </div>
+
+    <div class="trend-list">
+        <div class="trend-item trend-show" data-trend="drones">
+            <div class="hover-icons">
+                <a href="#" class="icon"><img src="/img/quick.png" alt="Переглянути"></a>
+                <a href="#" class="icon"><img src="/img/favourite.png" alt="Додати в улюблене"></a>                
+            </div>
+            <div class="image-container">
+                <a href="product-page.html" class="image-link">
+                    <img src="/img/drone-X6-pro.png" class="default-img">
+                    <img src="/img/drone-X6-pro2.png" class="hover-img">
+                </a>
+            </div>
+            <a href="cart.html" class="cart-btn">+ ADD TO CART</a>
+            <div class="divider"><hr></hr></div>
+            <a href="product-page.html" class="product-title">DRONE CAMERA</a>
+            <div class="price-container">
+                <span class="price">$80,000</span>
+                <span class="old-price">$95,599</span>
+            </div>
+            <div class="rating">☆ ☆ ☆ ☆ ☆</div>
+        </div>
+    </div>    
+    
+    <div class="trend-list">
+        <div class="trend-item trend-show" data-trend="drones">
+            <div class="hover-icons">
+                <a href="#" class="icon"><img src="/img/quick.png" alt="Переглянути"></a>
+                <a href="#" class="icon"><img src="/img/favourite.png" alt="Додати в улюблене"></a>                
+            </div>
+            <div class="image-container">
+                <a href="product-page.html" class="image-link">
+                    <img src="/img/drone-X6-pro.png" class="default-img">
+                    <img src="/img/drone-X6-pro2.png" class="hover-img">
+                </a>
+            </div>
+            <a href="cart.html" class="cart-btn">+ ADD TO CART</a>
+            <div class="divider"><hr></hr></div>
+            <a href="product-page.html" class="product-title">DRONE CAMERA</a>
+            <div class="price-container">
+                <span class="price">$80,000</span>
+                <span class="old-price">$95,599</span>
+            </div>
+            <div class="rating">☆ ☆ ☆ ☆ ☆</div>
+        </div>
+    </div> 
+
+    <div class="trend-list">
+        <div class="trend-item trend-show" data-trend="drones">
+            <div class="hover-icons">
+                <a href="#" class="icon"><img src="/img/quick.png" alt="Переглянути"></a>
+                <a href="#" class="icon"><img src="/img/favourite.png" alt="Додати в улюблене"></a>                
+            </div>
+            <div class="image-container">
+                <a href="product-page.html" class="image-link">
+                    <img src="/img/drone-X6-pro.png" class="default-img">
+                    <img src="/img/drone-X6-pro2.png" class="hover-img">
+                </a>
+            </div>
+            <a href="cart.html" class="cart-btn">+ ADD TO CART</a>
+            <div class="divider"><hr></hr></div>
+            <a href="product-page.html" class="product-title">DRONE CAMERA</a>
+            <div class="price-container">
+                <span class="price">$80,000</span>
+                <span class="old-price">$95,599</span>
+            </div>
+            <div class="rating">☆ ☆ ☆ ☆ ☆</div>
+        </div>
+    </div> 
+
+    <div class="trend-list">
+        <div class="trend-item trend-show" data-trend="drones">
+            <div class="hover-icons">
+                <a href="#" class="icon"><img src="/img/quick.png" alt="Переглянути"></a>
+                <a href="#" class="icon"><img src="/img/favourite.png" alt="Додати в улюблене"></a>                
+            </div>
+            <div class="image-container">
+                <a href="product-page.html" class="image-link">
+                    <img src="/img/drone-X6-pro.png" class="default-img">
+                    <img src="/img/drone-X6-pro2.png" class="hover-img">
+                </a>
+            </div>
+            <a href="cart.html" class="cart-btn">+ ADD TO CART</a>
+            <div class="divider"><hr></hr></div>
+            <a href="product-page.html" class="product-title">DRONE CAMERA</a>
+            <div class="price-container">
+                <span class="price">$80,000</span>
+                <span class="old-price">$95,599</span>
+            </div>
+            <div class="rating">☆ ☆ ☆ ☆ ☆</div>
+        </div>
+    </div> 
+
+    <div class="trend-list">
+        <div class="trend-item trend-show" data-trend="drones">
+            <div class="hover-icons">
+                <a href="#" class="icon"><img src="/img/quick.png" alt="Переглянути"></a>
+                <a href="#" class="icon"><img src="/img/favourite.png" alt="Додати в улюблене"></a>                
+            </div>
+            <div class="image-container">
+                <a href="product-page.html" class="image-link">
+                    <img src="/img/drone-X6-pro.png" class="default-img">
+                    <img src="/img/drone-X6-pro2.png" class="hover-img">
+                </a>
+            </div>
+            <a href="cart.html" class="cart-btn">+ ADD TO CART</a>
+            <div class="divider"><hr></hr></div>
+            <a href="product-page.html" class="product-title">DRONE CAMERA</a>
+            <div class="price-container">
+                <span class="price">$80,000</span>
+                <span class="old-price">$95,599</span>
+            </div>
+            <div class="rating">☆ ☆ ☆ ☆ ☆</div>
+        </div>
+    </div>   
+    
+    <div class="trend-list">
+        <div class="trend-item trend-show" data-trend="drones">
+            <div class="hover-icons">
+                <a href="#" class="icon"><img src="/img/quick.png" alt="Переглянути"></a>
+                <a href="#" class="icon"><img src="/img/favourite.png" alt="Додати в улюблене"></a>                
+            </div>
+            <div class="image-container">
+                <a href="product-page.html" class="image-link">
+                    <img src="/img/drone-X6-pro.png" class="default-img">
+                    <img src="/img/drone-X6-pro2.png" class="hover-img">
+                </a>
+            </div>
+            <a href="cart.html" class="cart-btn">+ ADD TO CART</a>
+            <div class="divider"><hr></hr></div>
+            <a href="product-page.html" class="product-title">DRONE CAMERA</a>
+            <div class="price-container">
+                <span class="price">$80,000</span>
+                <span class="old-price">$95,599</span>
+            </div>
+            <div class="rating">☆ ☆ ☆ ☆ ☆</div>
+        </div>
+    </div>   
+    
+        <div class="trend-item" data-trend="smartphone">
+            <div class="hover-icons">
+                <div>👁</div>
+                <div>❤️</div>
+            </div>
+            <div class="image-container">
+                <img src="https://via.placeholder.com/200" alt="Смартфон Pro">
+                <img src="image2.jpg" alt="При наведенні" class="hover-img">
+            </div>
+            <hr class="divider">
+            <div class="product-title">Смартфон Pro</div>
+            <div class="price">$1000</div>
+            <div class="old-price">$1200</div>
+            <button class="cart-btn">Додати в кошик</button>
+        </div>
+    </div>    
+    <div class="prop2">
+        <div class="prop-item2">
+            <img src="/img/home8-offer-banner1.jpg">
+            <div class="prop-text12">
+                <p>Music N7</p>
+            </div>
+            <div class="prop-text22">
+                <p>handsfree</p>
+            </div>
+            <div class="prop-a">
+            <a href="">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="prop-item">
+            <img src="/img/home8-offer-banner2.jpg">
+            <div class="prop-text112">
+                <p>Slim tablet</p>
+            </div>
+            <div class="prop-text222">
+                <p>collection</p>
+            </div>
+            <a href="">SHOP NOW</a>
+        </div>
 </main>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="script.js"></script>
-    <script src="category.js"></script>
 </body>
 </html>
